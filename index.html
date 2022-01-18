@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            <style>
+                .grid { 
+                  display: grid;
+                  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                  grid-gap: 20px;
+                  align-items: end;
+                  }
+                .grid > article {
+                  border: 1px solid #ccc;
+                  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+                }
+                .grid > article img {
+                  max-width: 100%;
+                }
+                .text {
+                  padding: 0 20px 20px;
+                }
+                .text > button {
+                  background: gray;
+                  border: 0;
+                  color: white;
+                  padding: 10px;
+                  width: 100%;
+                  }
+                </style>
+ 
+          <section class="colorlib-skills" data-section="projects">
+             <div class="colorlib-narrow-content">
+                <div class="row">
+                   <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                      <div class="about-desc">
+                         <h1 style="text-align: center;"> ROBOTICS SYSTEMS II LAB MANUAL</h1>
+                         <p style="text-align: center;">Dr. Sangram Redkar <br>Associate Professor, Graduate Program Chair, RAS <br>Tempe, Arizona, United States   </p>
+                      </div>
+                   </div>
+                </div>
+
+                <h3>TELLO LABWORK</h3>
+                <div class="grid">
+                    <article>
+                        <!-- <img src="images/cocobot.jpg" alt="Sample photo"> -->
+                        <div class="text">
+                          <h3>LAB 0- Controlling TELLO using python</h3>
+                          <p>Using python library  djitellopy control the speed and movement of the drone using keyboard </p>
+                          <button><a href="https://docs.google.com/document/d/1mJLOFmYJR3_lwulXbFo9xPlZeyhrE8fGUUqaGJp-D8E/edit?usp=sharing" style="color: #f1f1f1;">Start Lab</a></button>
+                        </div>
+                      </article>
+                   <article>
+                    <!-- <img src="images/cocobot.jpg" alt="Sample photo"> -->
+                    <div class="text">
+                      <h3>LAB 1- Autonomous Face Tracking Drone</h3>
+                      <p>The drone will be able to identify faces in the captured footage in real time and then follows the user autonomously to keep the person in the video frame. </p>
+                      <button><a href="http://asypher.club/" style="color: #f1f1f1;">Start Lab</a></button>
+                    </div>
+                  </article>
+                  <article>
+                   <!-- <img src="images/play.png" alt="Sample photo"> -->
+                   <div class="text">
+                     <h3>LAB 2 - Object Tracking Drone</h3>
+                     <p>The drone will be able to identify different objects in the captured footage in real time based on the color (yellow tea cup in our implementation) and  follows the object.</p>
+                     <button><a href="playground.html" style="color: #f1f1f1;">Start Lab</a></button>
+                   </div>
+                 </article>
+                  <article>
+                    <!-- <img src="images/t2b.jpg" alt="Sample photo"> -->
+                    <div class="text">
+                      <h3>LAB 3 - Controlling Drone with Body Postures</h3>
+                      <p>Identify the body postures in the frame and using KNN classify the pose and control the drone </p>
+                      <button><a href="https://drive.google.com/file/d/1XWSFKrQnPgmktziEVnWW0pHBxSnJvOPc/view?usp=sharing" style="color: #f1f1f1;">Start Lab</a></button>
+                    </div>
+                  </article>
+                  <article>
+                    <!-- <img src="images/car.gif" alt="Sample photo"> -->
+                    <div class="text">
+                      <h3>LAB 4 - Controlling Drone with Hand Gestures                    </h3>
+                      <p>Identify the Hand Gestures in the frame and using KNN classify the gesture and control the drone </p>
+                      <button><a href=" https://drive.google.com/file/d/1CJprRIT-Bioytop9e3TMVIPcWpOg5VHX/view?usp=sharing" style="color: #f1f1f1;">Start Lab</a></button>
+                    </div>
+                  </article>
+                  <article>
+                   <!-- <img src="images/blind.png" alt="Sample photo"> -->
+                   <div class="text">
+                     <h3>LAB 5 - YELLO (YOLO + TELLO)                    </h3>
+                     <p>The drone will be able to identify different objects in the captured footage in real time and then perform actions based on the detected object</p>
+                     <button><a href="https://www.ivlabs.in/blind-navigator.html" style="color: #f1f1f1;">Start Lab</a></button>
+                   </div>
+                 </article>
+                 <article>
+                   <!-- <img src="images/drone.jpg" alt="Sample photo"> -->
+                   <div class="text">
+                     <h3>LAB 6 - TELLO_ROS_ORBSLAM</h3>
+                     <p>Test the ROS GUI that will allow you to control the Tello and command it to move in the x,y,z,pitch,roll,yaw plane</p>
+                     <button><a href="https://docs.google.com/presentation/d/15NSDe88ABleISAJlqxB61yH40NCVtR-0/edit?usp=sharing&ouid=102691564808274678708&rtpof=true&sd=true"  style="color: white" > Start Lab</a></button>
+                   </div>
+                 </article>
+                 <article>
+                   <!-- <img src="images/face3d.jpg" alt="Sample photo"> -->
+                   <div class="text">
+                     <h3>LAB 7 - COLLISION AVOIDANCE DRONE</h3>
+                     <p>The drone will be able to identify different objects in the captured footage in real time (human face in our implementation) follows the object and also makes sure the drone doesn’t go too close to that object</p>
+                     <button>Start Lab</button>
+                   </div>
+                 </article>
+                </div>
+                <br><br><h3>PARROT LABWORK</h3>
+             </div>
+          </section>
+ 
+    </body>
+</html>
